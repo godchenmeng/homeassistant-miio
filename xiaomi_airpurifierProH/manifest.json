@@ -1,0 +1,8 @@
+{
+  "domain": "xiaomi_airpurifierProH",
+  "name": "Xiaomi airpurifierProH integration",
+  "documentation": "https://github.com/godchenmeng/homeassistant-airpurifierProH",
+  "requirements": ["construct==2.9.45", "python-miio==0.4.8"],
+  "dependencies": [],
+  "codeowners": ["@godchenmeng"]
+}

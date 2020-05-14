@@ -1,0 +1,41 @@
+# Describes the format for available airpurifier services
+
+set_led_brightness:
+  description: Set the Led Brightness of the Airpurifier
+  fields:
+    entity_id:
+      description: Name of the Airpurifier entity.
+      example: 'fan.bedroom_airpurifier'
+    led_brightness:
+      description: light level 0-Light 1-Gleam 2-Off
+      example: '0'
+
+set_fan_level:
+  description: Set the fan speed of the Airpurifier.
+  fields:
+    entity_id:
+      description: Name of the Airpurifier entity.
+      example: 'fan.bedroom_airpurifier'
+    fan_level:
+      description: speed level 0-Silent 1-Medium 2-High 3-Strong
+      example: '0'
+
+set_favorite_level:
+  description: Set the favorite fan level
+  fields:
+    entity_id:
+      description: Name of the Airpurifier entity.
+      example: 'fan.bedroom_airpurifier'
+    favorite_level:
+      description: favorite level 1Level to 10Level
+      example: '0'
+
+set_mode:
+  description: Set the mode of fan
+  fields:
+    entity_id:
+      description: Name of the Airpurifier entity.
+      example: 'fan.bedroom_airpurifier'
+    mode:
+      description: mode of airpurifier 0-Auto 1-Silent 2-Favorite
+      example: '0'

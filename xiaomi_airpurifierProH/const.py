@@ -1,0 +1,25 @@
+"""Constants for the Xiaomi Miio component."""
+DOMAIN = "fan"
+
+# Fan Services
+SERVICE_SET_BUZZER_ON = "fan_set_buzzer_on"
+SERVICE_SET_BUZZER_OFF = "fan_set_buzzer_off"
+SERVICE_SET_MODE = "fan_set_mode"
+SERVICE_SET_LED_OFF = "fan_set_led_off"
+SERVICE_SET_CHILD_LOCK_ON = "fan_set_child_lock_on"
+SERVICE_SET_CHILD_LOCK_OFF = "fan_set_child_lock_off"
+SERVICE_SET_LED_BRIGHTNESS = "fan_set_led_brightness"
+SERVICE_SET_FAN_LEVEL = "fan_set_fan_level"
+SERVICE_SET_FAVORITE_LEVEL = "fan_set_favorite_level"
+SERVICE_SET_AUTO_DETECT_ON = "fan_set_auto_detect_on"
+SERVICE_SET_AUTO_DETECT_OFF = "fan_set_auto_detect_off"
+SERVICE_SET_LEARN_MODE_ON = "fan_set_learn_mode_on"
+SERVICE_SET_LEARN_MODE_OFF = "fan_set_learn_mode_off"
+SERVICE_SET_VOLUME = "fan_set_volume"
+SERVICE_RESET_FILTER = "fan_reset_filter"
+SERVICE_SET_EXTRA_FEATURES = "fan_set_extra_features"
+SERVICE_SET_TARGET_HUMIDITY = "fan_set_target_humidity"
+SERVICE_SET_DRY_ON = "fan_set_dry_on"
+SERVICE_SET_DRY_OFF = "fan_set_dry_off"
+
+
